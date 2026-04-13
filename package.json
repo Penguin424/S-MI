@@ -1,0 +1,23 @@
+{
+  "name": "SØMI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "discord.js": "^14.26.2",
+    "dotenv": "^17.4.2",
+    "eslint": "^10.2.0",
+    "tsc-watch": "^7.2.0"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.2"
+  }
+}
